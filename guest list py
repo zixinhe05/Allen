@@ -1,0 +1,15 @@
+guest_list = ['peiji','janson','moon']
+print(guest_list[2])
+guest_list[2]='sun'
+print(guest_list)
+guest_list.insert(0,'Delson')
+print(guest_list)
+guest_list.insert(1,'xinyu')
+print(guest_list)
+guest_list.append('Jack')
+print(guest_list)
+print("hello\tHello")
+guest_list.pop()
+print(guest_list)
+del guest_list[0]
+print(guest_list)
